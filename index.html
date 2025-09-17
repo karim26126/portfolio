@@ -34,7 +34,7 @@
             la tech nous offre à chaque année.</p>
         <div class="row mt-8">
           <a class="btn primary" href="#projects">Voir mes projets</a>
-          <a class="btn" href="#" id="cvBtn">Télécharger mon CV</a>
+          <a class="btn" href="cv_log.pdf" id="cvBtn">Télécharger mon CV</a>
         </div>
       </div>
 
@@ -148,7 +148,6 @@
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('cvBtn').addEventListener('click', function(e){
       e.preventDefault();
-      alert("Ajoute ton PDF (cv.pdf) à la racine et remplace ce bouton par un lien direct vers ce fichier.");
     });
 
     // Animations au scroll
